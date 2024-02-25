@@ -4,6 +4,8 @@ monthly_interest_rate = annual_interest_rate / 12
 monthly_payment = 2502
 total_months = 30 * 12
 
+value= 0
+
 remaining_balance = loan_amount
 print("Month\tInterest\tPrincipal\tBalance")
 for month in range(1, total_months + 1):
