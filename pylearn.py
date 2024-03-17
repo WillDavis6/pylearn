@@ -9,7 +9,10 @@ value= 0
 remaining_balance = loan_amount
 print("Month\tInterest\tPrincipal\tBalance")
 for month in range(1, total_months + 1):
-    interest_payment = remaining_balance * monthly_interest_rate
+    interest_payment = remaining_balance * monthly_interest_rates
     principal_payment = monthly_payment - interest_payment
     remaining_balance -= principal_payment
     print(f"{month}\t{interest_payment:.2f}\t\t{principal_payment:.2f}\t\t{remaining_balance:.2f}")
+
+class algorythm():
+    print('')
