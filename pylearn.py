@@ -14,5 +14,6 @@ for month in range(1, total_months + 1):
     remaining_balance -= principal_payment
     print(f"{month}\t{interest_payment:.2f}\t\t{principal_payment:.2f}\t\t{remaining_balance:.2f}")
 
+from flask_wtf import FlaskForm
 class algorythm():
     print('')
