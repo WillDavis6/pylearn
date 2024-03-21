@@ -17,3 +17,6 @@ for month in range(1, total_months + 1):
 from flask_wtf import FlaskForm
 class algorythm():
     print('')
+
+
+db.session.query(Materials.info(s))
