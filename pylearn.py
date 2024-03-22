@@ -19,4 +19,4 @@ class algorythm():
     print('')
 
 
-db.session.query(Materials.info(s))
+db.session.query(Materials.info())
