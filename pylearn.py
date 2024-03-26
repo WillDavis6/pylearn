@@ -1,3 +1,5 @@
+import requests
+
 loan_amount = 415000
 annual_interest_rate = 0.065
 monthly_interest_rate = annual_interest_rate / 12
@@ -20,3 +22,5 @@ class algorythm():
 
 
 db.session.query(Materials.info())
+
+requests.get(url, params)
