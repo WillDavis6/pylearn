@@ -23,4 +23,4 @@ class algorythm():
 
 db.session.query(Materials.info())
 
-requests.get(url, params)
+requests.get(url, params) parms
