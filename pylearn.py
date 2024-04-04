@@ -20,7 +20,7 @@ from flask_wtf import FlaskForm
 class algorythm():
     print('')
 
-
+dataframe = pd.to_excel()
 db.session.query(Materials.info())
 
-requests.get(url, params) parms
+requests.get(url, params) 
